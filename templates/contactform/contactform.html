@@ -1,0 +1,36 @@
+
+{% extends 'acceuil_menu.html' %}
+
+{% block contenu %}
+<div class="container">
+<div class="col-md-6 offset-md-3 text-center">
+    <form action="" method="post" >
+        {% csrf_token %}
+        <div class="text-light">
+            <div class="tag">Nom et Prenom</div>
+            <input type="text" name="nom-prenom" size="30" class="text-light fw-light text-center rounded border-white" required  style="background-color:rgba(255, 255, 255, 0)">
+        </div>
+    
+        <div class="text-light">
+            <div class="tag">Email</div>
+            <input type="text" name="email" size="30" class="text-light fw-light text-center rounded border-white" required  style="background-color:rgba(255, 255, 255, 0)">
+        </div>
+    
+        <div class="text-light">
+            <div class="tag">Objet</div>
+            <input type="text" name="objet" size="30" class="text-light fw-light text-center rounded border-white" required  style="background-color:rgba(255, 255, 255, 0)">
+        </div>
+    
+        <div class="text-light" >
+            <div class="tag">Message</div>
+            <textarea name="message" cols="33" rows="5" size="40" class="text-light fw-light text-center rounded border-white " required  style="background-color:rgba(255, 255, 255, 0)"></textarea>
+        </div>
+        <div class="text-dark">
+            <input type="submit" class="btn submit-btn btn-btn-outline-dark" required style="background-color:white" value="Envoyer">
+
+        </div>
+    </div>
+    </form>
+</div>
+</div>
+{% endblock %}
