@@ -126,8 +126,8 @@ MEDIA_URL='/images/'
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST='smtp.gmail.com'
 EMAIL_HOST_USER='agencedosso9@gmail.com'
-EMAIL_HOST_PASSWORD='vslsnrnkqukhsudp'
-# vslsnrnkqukhsudp xlmgdgxzvpbgozqj
+EMAIL_HOST_PASSWORD='xlmgdgxzvpbgozqj'
+# vslsnrnkqukhsudp 
 EMAIL_PORT=587
 EMAIL_USE_TLS=True
 EMAIL_USE_SSL=False
