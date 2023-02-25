@@ -22,7 +22,7 @@ def contact(request):
         Nouveau Message: {}
         Mon Email est : {}
         '''.format(data['name'], data['message'], data['email'])
-        send_mail(data['objet'], message, '', ['agencedosso4@gmail.com'])
+        send_mail(data['objet'], message, '', ['agencedosso9@gmail.com'])
         
         return HttpResponse("votre message a été envoyé avec succès. Merci.")
 
